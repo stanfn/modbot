@@ -1,4 +1,5 @@
 const Discord = require('discord.js')
+const embedcolor = require('../config.json').settings.embed_color
 
 module.exports.run = async (client, message, args) => {
 
@@ -13,7 +14,7 @@ let ball = ["It is certain.","It is decidedly so.","Without a doubt.","Yes – d
 let embed = new Discord.RichEmbed()
 .setAuthor('Magic 8Ball', 'https://magic-8ball.com/assets/images/magicBallStart.png')
 .setDescription(ball[Math.floor(Math.random() * parseInt(12))])
-.setColor('RANDOM')
+.setColor(embedcolor)
 await message.channel.send(embed).then(msg => msg.delete(5000))
 
 }
