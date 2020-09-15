@@ -1,4 +1,8 @@
 {       
     "token": "your bot token here", 
-    "prefix": "!"
+    "prefix": "!",
+    "channels": {
+        "logs": "ID HERE",
+        "suggestions": "ID HERE"
+    }
 }
