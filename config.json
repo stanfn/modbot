@@ -1,8 +1,9 @@
 {       
     "token": "your bot token here", 
     "prefix": "!",
-    "channels": {
+    "settings": {
         "logs": "ID HERE",
-        "suggestions": "ID HERE"
+        "suggestions": "ID HERE",
+        "embed_color": "#ff0000"
     }
 }
