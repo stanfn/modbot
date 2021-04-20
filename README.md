@@ -1,4 +1,7 @@
-# modbot
+# modbot (ARCHIVED)
+
+## NO LONGER RECEIVING UPDATES! PLEASE SWITCH TO DISCORD.JS V12
+
 
 ![modbot](https://cdn.discordapp.com/attachments/738053243745075270/755074167203823726/image0.png)
 
